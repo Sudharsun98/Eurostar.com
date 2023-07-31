@@ -62,7 +62,7 @@ describe('Eurostar.com', () => {
         cy.get('.sc-oh483x-4').eq(0).contains('Morning').click({force:true}); // Line-no: 62 has been used for clicking the link/button called (Morning) //
         cy.wait(2000);
 
-        cy.get('.sc-173ffic-2').eq(0).contains(171).click({force:true}); // Line-no: 65 has been used for clicking the price icon, which is represented as ($171) //
+        cy.get('.sc-173ffic-2').eq(0).contains(148).click({force:true}); // Line-no: 65 has been used for clicking the price icon, which is represented as ($171) //
         cy.wait(2000);
 
         cy.get('.sc-axlilu-4').eq(0).contains('Select').click({force:true}); // Line-no: 68 has been used for clicking the button called (Select) //
@@ -71,7 +71,7 @@ describe('Eurostar.com', () => {
         cy.get('.sc-oh483x-4').eq(0).contains('Morning').click({force:true}); // Line-no: 71 has been used for clicking the link/button called (Morning) //
         cy.wait(2000);
 
-        cy.get('.sc-173ffic-2').eq(1).contains(148).click({force:true}); // Line-no: 74 has been used for clicking the price icon, which is represented as ($148) //
+        cy.get('.sc-173ffic-2').eq(1).contains(62).click({force:true}); // Line-no: 74 has been used for clicking the price icon, which is represented as ($148) //
         cy.wait(2000);
 
         cy.get('.sc-axlilu-4').eq(1).contains('Select').click({force:true}); // Line-no: 77 has been used for clicking the button called (Select) //
